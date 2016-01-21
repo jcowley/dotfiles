@@ -132,10 +132,6 @@ export PROJECT_HOME=$HOME/VirtualDevEnvs
 include () {
     [[ -s "$1" ]] && source "$1"
 }
-# Add rmv if exists <<3
-#-------------------------------------------------------------------------------
-include ~/.rvm/scripts/rvm
-# >>3
 # Add nvm if exists <<3
 #-------------------------------------------------------------------------------
 include ~/.nvm/nvm.sh
@@ -150,3 +146,4 @@ fi
 # >>1
 
 # EOF
+
